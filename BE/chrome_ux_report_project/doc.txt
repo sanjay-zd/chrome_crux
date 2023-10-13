@@ -1,0 +1,9 @@
+1) First Contentful Paint (FCP): This metric measures the time it takes for the first content element (e.g., text or images) to be displayed on the user's screen after they navigate to a web page. FCP is an essential metric for understanding the initial loading experience of a website.
+
+2) Largest Contentful Paint (LCP): LCP measures the time it takes for the largest content element (e.g., a hero image or block of text) to become visible within the user's viewport. LCP is crucial for assessing the visual loading experience and user perception of a website's speed.
+
+3) Cumulative Layout Shift (CLS): CLS measures the unexpected layout shifts that occur on a webpage. It quantifies the visual stability of a page, with lower scores indicating a more stable user experience. Websites that have content shifting while loading can lead to a poor user experience.
+
+4) Time to First Byte (TTFB): TTFB measures the time it takes for the server to respond to a request, indicating the server's responsiveness. A lower TTFB is generally desirable as it suggests faster server response times.
+
+5) First Input Delay (FID): FID quantifies the delay between a user's first interaction with a page (e.g., clicking a button) and the time when the browser responds to that interaction. A lower FID is indicative of a more responsive website.

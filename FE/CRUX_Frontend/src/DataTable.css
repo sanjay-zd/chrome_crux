@@ -1,0 +1,126 @@
+/* DataTable.css */
+.table-container {
+    margin: 20px;
+  }
+  
+  .filter-section {
+    margin-bottom: 10px;
+    padding: 0px 10px;
+  }
+  .search-section, h5, h3{
+    padding: 0px 10px;
+  }
+  
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .data-table th, .data-table td {
+    padding: 8px 12px;
+    text-align: left;
+    border: 1px solid #ccc;
+  }
+  
+  .data-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .data-table th:hover {
+    cursor: pointer;
+  }
+  
+  .data-table th.sort-asc::after {
+    content: '↑';
+  }
+  
+  .data-table th.sort-desc::after {
+    content: '↓';
+  }
+
+/* Styles for the search section */
+.search-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  width: 40%;
+  padding: 15px;
+}
+
+/* Styles for the input field */
+.input-field {
+  flex: 1; /* Take up remaining horizontal space */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 16px;
+  width: 250px;
+}
+
+/* Styles for the search button */
+.search-button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0px 5px;
+}
+
+/* Style the button on hover */
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+.table-heading{
+  width: 100%;
+  /* background-color: #0056b3; */
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.no-records{
+  display: flex;
+  justify-content: center;
+}
+
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.pagination span {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0 10px;
+}
+.entered-result-url{
+  display: flex;
+}
+.entered-result-url span{
+  display: flex;
+  align-items: center;
+}
